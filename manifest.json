@@ -1,0 +1,20 @@
+{
+
+    "version": "1.0.0",
+    "name": "Уншаад өг!",
+    "description": "Уншаад өг! Веб хөтчийн Монгол бичвэрийг ярианд хөрвүүлэгч.",
+    "background": {
+        "scripts": ["js/jquery.js","background.js"]
+    },
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://*.google.com https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js https://*.google-analytics.com https://www.enkhsanaa.me/*; object-src 'self'",
+    "permissions": ["<all_urls>","tabs","contextMenus","tts", "clipboardRead", "https://www.enkhsanaa.me/*", "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js", "activeTab"],
+    "browser_action": {
+        "default_icon": "img/loud_19.png",
+        "default_popup": "options.html"
+    },
+    "icons": {
+        "16": "img/speakit_16.png",
+        "48": "img/speakit_48.png"
+    }
+}

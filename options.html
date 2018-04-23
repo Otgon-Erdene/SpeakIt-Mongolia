@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="options2.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css">
+  <script type='text/javascript' src='js/jquery.js'></script>
+
+  <script type="text/javascript" src="options2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+</head>
+
+<body>
+<div id="main">                 
+
+<h1 id="appName" class="header"></h1>
+
+<p id ="description"><strong>Уншуулах бичвэрээ идэвхижүүлээд хулганы баруун товчийг дарна уу.</strong></p>
+  
+<div id="voicetype" >
+	<select data-id="voice" id="voicetype_id" class="browser-default">
+		<option value="altanbagana" selected>Хоолой 1</option>
+		<option value="tsevelmaa">Хоолой 2</option>
+		<option value="oyunaa">Хоолой 3</option>
+	</select>
+</div>
+<div class="input-field inline">
+	<input type="text" maxlength="512" id="urlField" class="validate" /></br>
+	<label for="urlField">URL</label>
+	<button id="urlButton" class="btn waves-effect waves-light btn-small" />Унш!
+		<i class="material-icons right">volume_up</i>
+	</button></br>
+	
+</div>
+<p id="version">Хувилбар 1.0.0</p>
+</div>
+
+</body>
+
+</html>

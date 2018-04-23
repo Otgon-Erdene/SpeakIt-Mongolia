@@ -1,0 +1,38 @@
+*{
+  font-family: arial,tahoma,verdana;
+}
+html,body,#main{
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+}
+
+body{
+  font-size: 12px;
+  text-align: center;
+}
+
+#appName{
+	border-color: #111;
+	color: #26a69a;
+	font-size:24px;
+	font-weight: bold;
+	margin: 5px 0 0 0;
+	text-align: center;
+	}
+#main{
+	background:#FFFFFF;
+	position: relative;
+}
+
+#description{
+	padding: 0px 5px 0px 5px;
+	text-align: center;
+}
+#urlButton{
+  color: white;
+  font-weight: bold;
+}
+#version{
+
+}
